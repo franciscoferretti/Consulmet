@@ -153,13 +153,15 @@ li,
   --rr-grey-2: #203240;
   --rr-text-body: #636363;
   --rr-text-1: #777777;
-  --rr-heading-1: #203240;
-  --rr-theme-1: #46e64e;
+  --rr-heading-1: #384857;
+  --rr-theme-1: #d5403b;
   --rr-theme-2: #203240;
   --rr-theme-3: #17212a;
   --rr-border-1: #ebebeb;
 }
-
+.zzz{
+border: solid red;
+}
 .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
   max-width: 1200px;
 }
@@ -11098,10 +11100,14 @@ body .ui-tooltip {
 .rr-service-3-item {
   border: 2px solid #ecebeb;
   border-radius: 10px;
+  width: 100%;
 }
 .rr-service-3-title {
   font-size: 22px;
   color: #3a3a3a;
+}
+.ancho{
+  width: 50%;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .rr-service-3-title {
