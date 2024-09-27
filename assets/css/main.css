@@ -9329,8 +9329,10 @@ body .ui-tooltip {
   height: 1px;
 }
 .rr-features-item {
-  border: 1px solid #ececec;
+  border: 1px solid #cecdcd;
+  border-radius: 2rem;
   margin-bottom: 30px;
+  height: 20rem;
 }
 .rr-features-main {
   display: grid;
@@ -9387,6 +9389,7 @@ body .ui-tooltip {
   color: var(--bs-body-bg);
   font-weight: 600;
   z-index: 2;
+  
 }
 .rr-features-icon {
   height: 125px;
@@ -9431,6 +9434,7 @@ body .ui-tooltip {
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
+
 }
 .rr-features-thumb::after {
   position: absolute;
@@ -9451,6 +9455,7 @@ body .ui-tooltip {
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
+  
 }
 .rr-features-title a {
   font-size: 22px;
@@ -9490,9 +9495,10 @@ body .ui-tooltip {
   line-height: 18px;
   text-align: center;
 }
-.rr-features-item:hover .rr-features-content {
+/* .rr-features-item:hover .rr-features-content {
   background: #f2f4f9;
-}
+  overflow: hidden;
+} */
 .rr-features-item:hover .rr-features-btn {
   color: var(--rr-theme-1);
 }
@@ -9505,11 +9511,14 @@ body .ui-tooltip {
   visibility: visible;
   z-index: 1;
   opacity: 0.9;
+  /* border-radius: 1rem !important; */
+  
 }
 .rr-features-item:hover .rr-features-thumb::after {
   visibility: visible;
   opacity: 1;
   height: 100px;
+  
 }
 .rr-features-item:hover .rr-features-icon img {
   filter: brightness(0) invert(1);
@@ -10221,11 +10230,13 @@ body .ui-tooltip {
   width: 50%;
   top: 45%;
   left: 0;
+  border-radius: 1rem;
 }
 
 .rr-image1 {
   width: 80%;
   text-align: right;
+  border-radius: 1rem;
 }
 
 .about-us-img {
