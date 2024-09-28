@@ -159,6 +159,9 @@ li,
   --rr-theme-3: #17212a;
   --rr-border-1: #ebebeb;
 }
+.border-radius{
+  border-radius: 1rem;
+}
 .zzz{
 border: solid red;
 }
@@ -7741,6 +7744,7 @@ body .ui-tooltip {
 }
 .rr-blog-item {
   border: 1px solid #ddd;
+  border-radius: 1rem;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 767px) {
   .rr-blog-item {
@@ -7827,6 +7831,7 @@ body .ui-tooltip {
 .rr-blog-thumb {
   overflow: hidden;
   position: relative;
+  border-radius: 1rem;
 }
 .rr-blog-thumb img {
   transition: 0.9s;
@@ -8984,8 +8989,8 @@ body .ui-tooltip {
   background:#d5403b;
   height: 300px;
   position: absolute;
-  top: -225px;
-  left: -150px;
+  top: -270px;
+  left: -220px;
   content: "";
   width: 60%;
   transform: translateX(-150px);
@@ -8996,13 +9001,13 @@ body .ui-tooltip {
   background: #d5403b;
   height: 300px;
   position: absolute;
-  top: 225px;
-  left: 450px;
+  top: 425px;
+  left: 470px;
   content: "";
   width: 60%;
   transform: translateX(150px);
   opacity: 0;
-  border-radius: 50%;
+  border-radius: 70%;
 }
 @media (max-width: 767px) {
   .rr-slider-3-content {
@@ -14234,7 +14239,7 @@ span.current {
 .rr-counter-circle-bottom2::before {
   position: absolute;
   content: "";
-  bottom: -228px;
+  bottom: -528px;
   right: -93px;
   width: 340px;
   height: 340px;
