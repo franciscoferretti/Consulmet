@@ -162,6 +162,9 @@ li,
 .zzz{
 border: solid red;
 }
+.txt-color{
+  color: #000 !important;
+}
 .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
   max-width: 1200px;
 }
@@ -8978,26 +8981,28 @@ body .ui-tooltip {
   padding-left: 50px;
 }
 .rr-slider-3-content::before {
-  background: rgba(231, 34, 84, 0.69);
-  height: 510px;
+  background:#d5403b;
+  height: 300px;
   position: absolute;
-  top: 25px;
-  left: -30px;
+  top: -225px;
+  left: -150px;
   content: "";
-  width: 100%;
+  width: 60%;
   transform: translateX(-150px);
   opacity: 0;
+  border-radius: 50%;
 }
 .rr-slider-3-content::after {
-  background: rgba(231, 34, 84, 0.69);
-  height: 510px;
+  background: #d5403b;
+  height: 300px;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 225px;
+  left: 450px;
   content: "";
-  width: 100%;
+  width: 60%;
   transform: translateX(150px);
   opacity: 0;
+  border-radius: 50%;
 }
 @media (max-width: 767px) {
   .rr-slider-3-content {
@@ -9007,7 +9012,9 @@ body .ui-tooltip {
 .rr-slider-3-area {
   background-position: center;
   background-size: cover;
+  width: 50%;
 }
+
 .rr-slider-3-title-box p {
   color: #fff;
   position: relative;
@@ -9062,7 +9069,7 @@ body .ui-tooltip {
 .rr-slider-3-arrow-box {
   position: absolute;
   right: 0;
-  bottom: 70px;
+  bottom: 90px;
   z-index: 8;
   transition: all 0.3s ease-out 0s;
   transform: translateX(-50%);
@@ -14224,7 +14231,38 @@ span.current {
   animation-delay: 0s;
   animation-delay: 0s;
 }
-
+.rr-counter-circle-bottom2::before {
+  position: absolute;
+  content: "";
+  bottom: -228px;
+  right: -93px;
+  width: 340px;
+  height: 340px;
+  text-align: center;
+  line-height: 340px;
+  background: #edc6d5;
+  border-radius: 50%;
+  /* animation: rr-hotspot 3s cubic-bezier(0.4, 0, 1, 1) infinite; */
+  animation-delay: 0s;
+  animation-delay: 0s;
+  animation-delay: 0s;
+}
+.rr-counter-circle-right2::after {
+  position: absolute;
+  content: "";
+  bottom: -107px;
+  right: -224px;
+  width: 340px;
+  height: 340px;
+  text-align: center;
+  line-height: 340px;
+  background: #eea5ba;
+  border-radius: 50%;
+  /* animation: rr-hotspot 3s cubic-bezier(0.4, 0, 1, 1) infinite; */
+  animation-delay: 0s;
+  animation-delay: 0s;
+  animation-delay: 0s;
+}
 /*----------------------------------------*/
 /*  7.14 product css
 /*----------------------------------------*/
